@@ -1,0 +1,64 @@
+/* Archivo: styles.css */
+
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Fondo claro */
+    color: #333; /* Texto oscuro */
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Título principal */
+.container h1 {
+    font-size: 2.5rem;
+    color: #ff6b81; /* Color rosa romántico */
+    margin-bottom: 20px;
+}
+
+/* Mensaje */
+.message p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555; /* Texto gris oscuro */
+}
+
+/* Sección de fotos */
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.photos img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photos img:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el cursor */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Aumenta la sombra */
+}
+
+/* Audio */
+audio {
+    margin-top: 30px;
+    outline: none; /* Quita el borde azul en navegadores */
+}
